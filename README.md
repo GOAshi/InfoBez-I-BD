@@ -7,3 +7,7 @@ https://docs.google.com/document/d/159YdkSvWsY4bpF6Jqp3UuxJhnlkfmzAvwZu4p4WgXas/
 
 STEPIK
 https://docs.google.com/document/d/1xe21VD7lHT1K8KTteYbcK-X1Xog89gyfp5LnfC1Lhvw/edit?usp=drivesdk
+
+
+PYCHARM(ЛЕКЦИЯ ПО PYTHON)
+https://docs.google.com/document/d/1Obgp3iQ9WFs2z3Fp2gGo3bDF7VSHyc3XrP0qVtP5bxU/edit?usp=drivesdk
