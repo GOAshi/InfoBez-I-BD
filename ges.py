@@ -134,15 +134,85 @@ else:
     print('Доступ разрешен')
 
 #АРИФМЕТИЧЕСКАЯ ПРОГРЕССИЯ
-
+a=int(input())
+b=int(input())
+c=int(input())
+if b-a == c-b:
+    print('YES')
+else:
+    print('NO')
 
 #НАИМЕНЬШЕЕ ИЗ ДВУХ ЧИСЕЛ
+a=int(input())
+b=int(input())
+if a<b:
+    print(a)
+else:
+    print(b)
 
-
-#НАИМЕНЬШЕЕ И ЧЕТЫРЁХ ЧИСЕЛ
-
+#НАИМЕНЬШЕЕ ИЗ ЧЕТЫРЁХ ЧИСЕЛ
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+print(min(a,b,c,d))
 
 #ВОЗРАСТНАЯ ГРУППА
-
+a=int(input())
+if a<=13:
+    print("детство")
+if 14<=a<=24:
+    print("молодость")
+if 25<=a<=59:
+    print("зрелость")
+if 60<=a:
+    print("старость")
 
 #ТОЛЬКО+
+a=int(input())
+b=int(input())
+c=int(input())
+print((a if a>0 else 0)+(b if b>0 else 0)+(c if c>0 else 0))
+
+#КРАСИВОЕ ЧИСЛО
+a=int(input())
+if a%7==0 or a%17==0:
+    print('YES')
+else:
+    print('NO')
+
+#НЕРАВЕНСТВО ТРЕУГОЛЬНИКА
+a=int(input())
+b=int(input())
+c=int(input())
+if a+b>c and b+c>a and a+c>b:
+    print('YES')
+else:
+    print('NO')
+
+#ВИСОКОСНЫЙ ГОД
+a=int(input())
+if a%4==0 and not a%100==0 or a%400==0:
+    print('YES')
+else:
+    print('NO')
+
+#ХОД ЛАДЬИ
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+if a==c or b==d:
+    print('YES')
+else:
+    print('NO')
+
+#ХОД КОРОЛЯ
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+if (a-1<=c<=a+1) and (b-1<=d<=b+1):
+    print('YES')
+else:
+    print('NO')
