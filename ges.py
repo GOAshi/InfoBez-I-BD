@@ -216,3 +216,54 @@ if (a-1<=c<=a+1) and (b-1<=d<=b+1):
     print('YES')
 else:
     print('NO')
+#ГОНКА СПИДСТЕРОВ
+z=int(input())
+f=int(input())
+if z>f:
+    print('NO')
+elif f>z:
+    print('YES')
+else:
+    print("Don't know")
+
+#ВИД ТРЕУГОЛЬНИКА
+a=int(input())
+b=int(input())
+c=int(input())
+if a==b==c:
+    print('Равносторонний')
+elif (a==b or b==c or c==a) and (a!=b or b!=c or c!=a):
+    print('Равнобедренный')
+else:
+    print('Разносторонний')
+
+#СРЕДНЕЕ ЧИСЛО
+a=int(input())
+b=int(input())
+c=int(input())
+if a<b<c or a>b>c:
+    print(b)
+elif b<c<a or b>c>a:
+    print(c)
+else:
+    print(a)
+
+#КОЛИЧЕСТВО ДНЕЙ
+a=int(input())
+if a==2:
+    print('28')
+elif a<=7:
+    print(30+a%2)
+else:
+    print(31-a%2)
+
+#ЦЕРЕМОНИЯ ВЗВЕШИВАНИЯ
+a=int(input())
+if a<60:
+    print('Лёгкий вес')
+elif a<64:
+    print('Первый полусредний')
+elif a<69:
+    print('Полусредний')
+
+#ЦВЕТОВОЙ МИКШЕР
